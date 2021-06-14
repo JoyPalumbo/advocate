@@ -1,16 +1,14 @@
 <template>
-  <v-app>
-    <v-toolbar dark color="#162130" style="height: 8vh" fixed>
+  <v-app-bar>
+    <v-toolbar dark color="#162130" height="35vh" fixed>
       <v-toolbar-title class="white--text">
-        <div class="header"></div>
       </v-toolbar-title>
-
-      <v-toolbar-items>
-        <v-btn flat>Entertainment</v-btn>
-        <v-btn flat>Sports</v-btn>
-        <v-btn flat>Weather</v-btn>
-        <v-btn flat>Food</v-btn>
-        <v-btn flat>Opinion</v-btn>
+      <v-toolbar-items >
+        <v-btn text>Entertainment</v-btn>
+        <v-btn text>Sports</v-btn>
+        <v-btn text>Weather</v-btn>
+        <v-btn text>Food</v-btn>
+        <v-btn text>Opinion</v-btn>
       </v-toolbar-items>
 
       <v-spacer></v-spacer>
@@ -27,24 +25,24 @@
         ></v-text-field>
       </v-layout>
     </v-toolbar>
-    <div>
+    <!-- <div>
       <h1>The Advocate</h1>
-    </div>
-  </v-app>
+    </div> -->
+  </v-app-bar>
 </template>
 
 <script>
 export default {
   name: "Header",
   props: {
-    msg: String,
+
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
+/* h3 {
   margin: 40px 0 0;
 }
 ul {
@@ -57,7 +55,7 @@ li {
 }
 a {
   color: #42b983;
-}
+} */
 </style>
 
   
