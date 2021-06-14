@@ -1,24 +1,27 @@
 <template>
   <div id="app">
-<h1>The Advocate</h1>
-<Header></Header>
+    <Header />
+    <H1>The Advocate </H1>
+    <!-- <Newsfeed /> -->
   </div>
 </template>
 
 <script>
-import Header from "./Header";
+import Header from "./components/Header";
+// import Newsfeed from "./components/Newsfeed";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-   Header
-  }
-}
+    Header,
+    // Newsfeed,
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
